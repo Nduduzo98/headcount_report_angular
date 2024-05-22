@@ -1,0 +1,22 @@
+<div class="container">
+   <br>
+   <br>
+    <mat-card>
+    <mat-accordion>
+      <mat-expansion-panel (opened)="panelOpenState = false"
+                           (closed)="panelOpenState = true">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <p>LEARNER ENROLMENT BY GRADE AND GENDER Johannesburg Central District</p>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="row">
+          <div  class="col-lg-11">
+            <canvas id="bar-chart"></canvas>
+          </div>
+        </div>
+                </mat-expansion-panel>
+    </mat-accordion>
+    </mat-card>
+   
+  </div>

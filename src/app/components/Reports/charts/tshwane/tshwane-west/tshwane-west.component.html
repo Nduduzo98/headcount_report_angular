@@ -1,0 +1,12 @@
+<button mat-raised-button style="background-color: #6be585;color: #fff;" (click)="showCompleted()">Submitted</button>
+&nbsp;
+<button mat-raised-button color="primary" (click)="showInProgress()">Not Completed</button>
+&nbsp;
+<button mat-raised-button color="warn" (click)="showNotStarted()">Not Submitted</button>
+&nbsp;
+<button mat-raised-button color="secondary" (click)="showSubmissionStat()">Submission Statistics</button>
+
+<app-tw-completed *ngIf="completedTable"></app-tw-completed>
+<app-tw-inprogress *ngIf="inProgressTable"></app-tw-inprogress>
+<app-tw-notstarted *ngIf="notStartedTable"></app-tw-notstarted>
+<app-tw-submission-stat *ngIf="submissionStatTable"></app-tw-submission-stat>

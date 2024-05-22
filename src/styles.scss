@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.tcpopup{
+    width: 50%;
+}
+@media screen and (min-width: 1201px) {
+    .tcpopup {
+        width: 60%;
+    }
+    mat-label{
+        font-size: 10px;
+    }
+}
+
+
+
+/* For screen widths up to 400px */
+@media screen and (max-width: 400px) {
+    .tcpopup {
+        width: 100%;
+    }
+    mat-label{
+        font-size: 10px;
+    }
+}
+
+/* For screen widths between 401px and 600px */
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    .tcpopup {
+        width: 100%;
+    }
+    mat-label{
+        font-size: 10px;
+    }
+}
+
+/* For screen widths between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .tcpopup {
+        width: 60%;
+    }
+    mat-label{
+        font-size: 10px;
+    }
+}
+
+/* For screen widths between 901px and 1200px */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .tcpopup {
+        width: 50%;
+    }
+    mat-label{
+        font-size: 10px;
+    }
+}
